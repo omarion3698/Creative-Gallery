@@ -1,5 +1,6 @@
 {% load static %}
 
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -39,6 +40,11 @@
     {% include "navbar.html" %}
     {% block content %}
 
+    {% endblock %}
+
+    {% block styles %}
+        {% bootstrap_css %}
+        <link rel="stylesheet" href="{% static 'css/styles.css' %}">
     {% endblock %}
 
     {% block scripts %}
