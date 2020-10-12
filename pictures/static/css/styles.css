@@ -2,10 +2,10 @@ h2{
   color:white;
   margin-top:2%;
   font-size:35px;
-  font-family: 'Special Elite', cursive;
+  font-family: sans-serif;
 }
 .boded{
-  background-image:url(/static/images/bg.jpeg);
+  background-image:url(/static/images/bg.jpg);
   padding-top:2%;
   background-repeat:no-repeat;
   background-position:center;
@@ -25,11 +25,11 @@ a{
   text-decoration:none;
 }
 .image{
-  font-family: 'Special Elite', cursive;
+  font-family: sans-serif;
   margin-bottom:18%;
 }
   body{
-   scroll-behavior: smooth;
+  scroll-behavior: smooth;
   background-image:url(/static/images/g.jpg);
   background-attachment:fixed;
   background-repeat:no-repeat;
@@ -45,22 +45,22 @@ a{
 }
 h3{
   color:white;
-  font-family: 'Special Elite', cursive;
+  font-family: sans-serif;
 }
 #locations{
   color:white;
-  font-family: 'Special Elite', cursive;
+  font-family: sans-serif;
 }
 hr{
   background:white;
   height:2px;
 }
 #imageheader{
-  font-family: 'Yeseva One', cursive;
+  font-family: sans-serif;
 }
   
 .imgdesc{
-  font-family: 'Vollkorn', serif;
+  font-family: sans-serif;
 }
 #found{
   margin-bottom:3%;
