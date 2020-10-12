@@ -68,6 +68,10 @@ Open the application on your browser 127.0.0.1:8000
 
 * Django
 
+* Html5
+
+* Css3
+
 ## Contact Information
 If you have any question or contributions, please email me at [omaribinbakarivic@gmail.com]
 
