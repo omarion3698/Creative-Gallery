@@ -14,7 +14,7 @@ h2{
 .overlay{
   margin:0;
   padding:0;
-  background-color:rgba(49, 83, 15,0.3);
+  background-color:rgba(6, 12, 1, 0.3);
 }
 .imagea{
   margin-top:34%;
@@ -28,7 +28,7 @@ a{
   font-family: sans-serif;
   margin-bottom:18%;
 }
-  body{
+body{
   scroll-behavior: smooth;
   background-image:url(/static/images/omar12.jpg);
   background-attachment:fixed;
@@ -36,7 +36,6 @@ a{
   background-position:center;
   background-size:cover;
 }
-  
 .modalcard{
   background-color:rgba(10,10,10,0.8);
   color:white;
