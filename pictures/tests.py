@@ -7,7 +7,7 @@ class TestImage(TestCase):
         self.location = Location(name='South C')
         self.location.save_location()
 
-        self.category = Category(name='home')
+        self.category = Category(name='Home')
         self.category.save_category()
 
         self.image_test = Image(id=1, name='image', description='this is a test image', location=self.location, category=self.category)
@@ -27,8 +27,8 @@ class TestImage(TestCase):
 
     def test_update_image(self):
         self.image_test.save_image()
-        self.image_test.update_image(self.image_test.id, 'photos/test.jpg')
-        changed_img = Image.objects.filter(image='photos/test.jpg')
+        self.image_test.update_image(self.image_test.id, 'images/oar.jpg')
+        changed_img = Image.objects.filter(image='images/oar.jpg')
         self.assertTrue(len(changed_img) > 0)
 
     def test_get_image_by_id(self):
@@ -42,7 +42,7 @@ class TestImage(TestCase):
         self.assertTrue(len(found_images) == 1)
 
     def test_search_image_by_category(self):
-        category = 'home'
+        category = 'Home'
         found_img = self.image_test.search_by_category(category)
         self.assertTrue(len(found_img) > 1)
 
@@ -84,7 +84,7 @@ class TestLocation(TestCase):
 
 class CategoryTestClass(TestCase):
     def setUp(self):
-        self.category = Category(name='home')
+        self.category = Category(name='Home')
         self.category.save_category()
 
     def test_instance(self):
