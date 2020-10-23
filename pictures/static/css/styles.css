@@ -5,7 +5,7 @@ h1{
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .boded{
-  background-image:url(/static/images/background.jpg);
+  background-image:url(/home/omarion/Desktop/Creative-gallery/pictures/static/images/background.jpg);
   padding-top:2%;
   background-repeat:no-repeat;
   background-position:center;
@@ -35,16 +35,19 @@ a{
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+.scroll{
+  text-align: center;
+}
 body{
   scroll-behavior: smooth;
-  background-image:url(/static/images/omar12.jpg);
+  background-image:url(/home/omarion/Desktop/Creative-gallery/pictures/static/images/omar12.jpg);
   background-attachment:fixed;
   background-repeat:no-repeat;
   background-position:center;
   background-size:cover;
 }
 .modalcard{
-  background-color:rgba(255, 0, 0, 0.8);
+  background-color:rgba(255, 255, 255, 0.8);
   color:rgb(255, 255, 255);
   padding:3%;
   border:none;
@@ -54,7 +57,7 @@ h3{
   font-family: sans-serif;
 }
 h2{
-  color: blue;
+  color: rgb(0, 0, 0);
   font-family: fantasy;
   font-weight: bolder;
 }
@@ -87,7 +90,7 @@ hr{
 }
 .cat{
   float:center;
-  background:rgb(202, 74, 0);
+  background:rgb(0, 0, 0);
   padding:4px;
   border-radius:6px;
 }
