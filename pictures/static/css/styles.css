@@ -2,15 +2,15 @@ h1{
   color:rgb(255, 255, 255);
   margin-top:2%;
   font-size:35px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: sans-serif;
 }
-.boded{
+/* .boded{
   background-image:url(/home/omarion/Desktop/Creative-gallery/pictures/static/images/background.jpg);
   padding-top:2%;
   background-repeat:no-repeat;
   background-position:center;
   background-size:cover;
-}
+} */
 .overlay{
   margin:0;
   padding:0;
@@ -38,17 +38,17 @@ a{
 .scroll{
   text-align: center;
 }
-body{
+/* body{
   scroll-behavior: smooth;
   background-image:url(/home/omarion/Desktop/Creative-gallery/pictures/static/images/omar12.jpg);
   background-attachment:fixed;
   background-repeat:no-repeat;
   background-position:center;
   background-size:cover;
-}
+} */
 .modalcard{
-  background-color:rgba(255, 0, 0, 0.8);
-  color:rgb(255, 0, 0);
+  background-color:rgba(255, 255, 255, 0.8);
+  color:rgb(255, 255, 255);
   padding:3%;
   border:none;
 }
@@ -93,4 +93,7 @@ hr{
   background:rgb(0, 0, 0);
   padding:4px;
   border-radius:6px;
+}
+.navbar-right{
+  font-size: 120px;
 }
