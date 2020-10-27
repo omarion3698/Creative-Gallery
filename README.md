@@ -15,49 +15,48 @@ This is a Django application for personal gallery that allows a user to upload i
 
 ## Set Up Instructions
 
-To get the project .......
+Follow the instructions to get the project:-
+Clone this repository:
 
-Cloning the repository:
-
-  ###### https://github.com/omarion3698/Creative-Gallery.git 
+  * https://github.com/omarion3698/Creative-Gallery.git 
 
 Navigate into the folder and install requirements
 
-  ###### cd Creative-Gallery
+  * cd Creative-Gallery
   
-  ###### pip install -r requirements.txt 
+  * pip install -r requirements.txt 
 
 Install and activate Virtual
 
-  ###### python3 -m venv virtual
+  * virtualenv venv
   
-  ###### source virtual/bin/activate
+  * source venv/bin/activate
 
 Install Dependencies
 
-  ###### pip install -r requirements.txt 
+  * pip install -r requirements.txt 
 
 Setup Database
 
 SetUp your database User,Password, Host then make migrate
 
-  ###### python manage.py makemigrations pictures 
+  * python manage.py makemigrations pictures 
 
 Now Migrate
 
-  ###### python manage.py migrate 
+  * python manage.py migrate 
 
 Run the application
 
-  ###### python manage.py runserver 
+  * python manage.py runserver 
 
 Running the application
 
-  ###### python manage.py server 
+  * python manage.py server 
 
 Testing the application
 
-  ###### python manage.py test 
+  * python manage.py test 
 
 Open the application on your browser 127.0.0.1:8000
 
